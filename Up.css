@@ -1,0 +1,154 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* SECTION */
+
+.main-section {
+   padding: 6.5rem 15rem 15rem 20rem; 
+}
+
+.container {
+    height: 15rem;
+    display: flex;
+}
+
+.container div h1 {
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    width: 28rem; 
+
+}
+
+.container h1 strong {
+    color: #e00909;
+}
+
+.container p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 15px;
+}
+
+.container p strong {
+    color: #e00909;
+    font-family: 'Krona One', sans-serif;
+    font-size: 13px;
+}
+
+.container img {
+    height: 24rem;
+    width: 20rem;
+    margin-left: 3rem;
+    border-radius: 0.40rem;   
+}
+
+
+.container .box {
+    padding-top: 0.50rem;
+}
+
+ .container .box-title {
+    margin-bottom: 1.5rem;
+}
+
+ .container .box-paragraph {
+    margin-bottom: 3rem;
+}
+
+.links ul a{
+    color: black;
+    margin-right: 4.5rem;
+    background-color: #e00909;
+    font-family:'Montserrat', sans-serif;  
+    border-radius: 0.40rem;
+    border: solid #e00909 0.75rem;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.links ul a:hover {
+    transform: translateY(-5px);
+    color: rgb(104, 0, 0);       
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 992px) {
+    .main-section {
+        padding: 6rem 7rem 8rem 1rem; 
+     }
+
+     .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .container .box {
+        margin-top: 6rem;
+        margin-left: 0.30rem;
+        
+    }
+     
+    .container div h1 {
+        color: white;
+        font-family: 'Krona One', sans-serif;
+        font-size: 27px;
+        width: 12rem; 
+    
+    }
+    
+    .container p {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .container img.image {
+        position: relative;
+        margin-top: 1rem;
+        align-items: center;
+        height: 23rem;
+        width: 15rem;
+        margin-left: 4rem;
+        border-radius: 0.40rem;   
+    }
+
+    div.links ul a{
+        color: black;
+        font-size: 11px;
+        background-color: #e00909;
+        font-family:'Krona One', sans-serif;  
+        border-radius: 0.30rem;
+        border: solid #e00909 0.75rem;
+        border-style: inset;
+        transition: 0.3s;
+        display: inline-block;
+        height: 2.80rem;
+        margin-right: 2.5rem;
+    }
+    div.links ul {      
+        text-decoration-line:initial ;
+        margin: 6.5rem 16rem 0 17rem; 
+        display: flex; 
+    }
+    
+
+    div.links ul a:hover {
+        transform: translateY(-5px);
+        color: rgb(104, 0, 0);       
+    }
+}
